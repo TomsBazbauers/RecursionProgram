@@ -29,7 +29,7 @@ namespace RecursionProgram
 
         public static ICalculator CreateCalculator()
         {
-            return new RecursionCalculator();
+            return new DepthCalculator();
         }
 
         public static void DisplayResult(int result)

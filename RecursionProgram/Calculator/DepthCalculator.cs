@@ -3,7 +3,7 @@ using RecursionProgram.Models;
 
 namespace RecursionProgram.Calculations
 {
-    public class RecursionCalculator : ICalculator
+    public class DepthCalculator : ICalculator
     {
         public int CalculateDepth(Branch structure, int structureDepth)
         {

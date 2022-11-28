@@ -5,13 +5,13 @@ using Xunit;
 
 namespace RecursionProgram.Tests.CalculatorTests
 {
-    public class CalculatorTests
+    public class DepthCalculatorTests
     {
         private readonly ICalculator _sut;
 
-        public CalculatorTests()
+        public DepthCalculatorTests()
         {
-            _sut = new RecursionCalculator();
+            _sut = new DepthCalculator();
         }
 
         [Fact]
