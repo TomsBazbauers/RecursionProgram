@@ -1,5 +1,5 @@
 # RecursionProgram
-An app that calculates the **depth of a structure**.
+An app that calculates **the depth of a structure**.
 
 ### Description
 - The depth is calculated using a *recursion* method.
